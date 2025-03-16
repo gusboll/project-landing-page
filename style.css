@@ -3,8 +3,9 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    gap: 50px;
     flex: 1;
+    padding: 0px;
+    margin: 0px;
 }
 
 .header {
@@ -104,3 +105,69 @@ ul {
 
 /* end of header part */
 /* body part */
+
+.bodyup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.bodyup1 {
+    padding: 30px 50px 30px 50px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.box {
+    height: 130px;
+    width: 130px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.boxestext {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box1 {
+    text-wrap: wrap;
+    height: 50px;
+    width: 136px;
+    font-size: 15px;
+}
+
+.bodymid {
+    background-color: #E5E7EB;
+}
+
+.quoteauthor {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+    gap: 5px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 500;
+}
